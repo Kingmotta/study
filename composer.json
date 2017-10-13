@@ -1,0 +1,19 @@
+{
+  "name": "mvc/mota",
+  "description": "Meu mvc",
+  "type": "project",
+  "require": {
+    "php": ">= 7.0"
+  },
+  "authors": [
+    {
+      "name": "Lucas Mota",
+      "email": "lucasmoota1@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}

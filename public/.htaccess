@@ -1,0 +1,6 @@
+# Turn rewriting on
+Options +FollowSymLinks
+RewriteEngine On
+DirectoryIndex public/index.php public/index.html
+# Redirect requests to index.php
+RewriteRule .* index.php
